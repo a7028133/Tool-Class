@@ -18,6 +18,8 @@
     [super viewDidLoad];
     
     NSLog(@"这是一个工具类");
+    
+    NSLog(@"2018.1.2");
 }
 
 - (void)didReceiveMemoryWarning {

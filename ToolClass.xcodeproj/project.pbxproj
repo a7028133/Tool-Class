@@ -16,12 +16,6 @@
 		046935C61D2E4E6900D07258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046935C41D2E4E6900D07258 /* LaunchScreen.storyboard */; };
 		046935D11D2E4E6A00D07258 /* ToolClassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046935D01D2E4E6A00D07258 /* ToolClassTests.m */; };
 		046935DC1D2E4E6A00D07258 /* ToolClassUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046935DB1D2E4E6A00D07258 /* ToolClassUITests.m */; };
-		046935F61D2E4EDD00D07258 /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 046935EA1D2E4EDD00D07258 /* UIImageView+SDWebImage.m */; };
-		046935F71D2E4EDD00D07258 /* GCDCountdownTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 046935EC1D2E4EDD00D07258 /* GCDCountdownTime.m */; };
-		046935F81D2E4EDD00D07258 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 046935EE1D2E4EDD00D07258 /* UIView+Toast.m */; };
-		046935F91D2E4EDD00D07258 /* NSMutableAttributedString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 046935F01D2E4EDD00D07258 /* NSMutableAttributedString+Helper.m */; };
-		046935FA1D2E4EDD00D07258 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 046935F21D2E4EDD00D07258 /* NSString+Helper.m */; };
-		046935FB1D2E4EDD00D07258 /* UIImage+ColorMakeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 046935F41D2E4EDD00D07258 /* UIImage+ColorMakeImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,19 +53,6 @@
 		046935D71D2E4E6A00D07258 /* ToolClassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolClassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		046935DB1D2E4E6A00D07258 /* ToolClassUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolClassUITests.m; sourceTree = "<group>"; };
 		046935DD1D2E4E6A00D07258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		046935E91D2E4EDD00D07258 /* UIImageView+SDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDWebImage.h"; sourceTree = "<group>"; };
-		046935EA1D2E4EDD00D07258 /* UIImageView+SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDWebImage.m"; sourceTree = "<group>"; };
-		046935EB1D2E4EDD00D07258 /* GCDCountdownTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDCountdownTime.h; sourceTree = "<group>"; };
-		046935EC1D2E4EDD00D07258 /* GCDCountdownTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDCountdownTime.m; sourceTree = "<group>"; };
-		046935ED1D2E4EDD00D07258 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
-		046935EE1D2E4EDD00D07258 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
-		046935EF1D2E4EDD00D07258 /* NSMutableAttributedString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Helper.h"; sourceTree = "<group>"; };
-		046935F01D2E4EDD00D07258 /* NSMutableAttributedString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Helper.m"; sourceTree = "<group>"; };
-		046935F11D2E4EDD00D07258 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
-		046935F21D2E4EDD00D07258 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
-		046935F31D2E4EDD00D07258 /* UIImage+ColorMakeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorMakeImage.h"; sourceTree = "<group>"; };
-		046935F41D2E4EDD00D07258 /* UIImage+ColorMakeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorMakeImage.m"; sourceTree = "<group>"; };
-		046935FC1D2E4EFA00D07258 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +83,6 @@
 		046935A71D2E4E6900D07258 = {
 			isa = PBXGroup;
 			children = (
-				046935F51D2E4EDD00D07258 /* 工具类 */,
 				046935B21D2E4E6900D07258 /* ToolClass */,
 				046935CF1D2E4E6A00D07258 /* ToolClassTests */,
 				046935DA1D2E4E6A00D07258 /* ToolClassUITests */,
@@ -161,27 +141,6 @@
 				046935DD1D2E4E6A00D07258 /* Info.plist */,
 			);
 			path = ToolClassUITests;
-			sourceTree = "<group>";
-		};
-		046935F51D2E4EDD00D07258 /* 工具类 */ = {
-			isa = PBXGroup;
-			children = (
-				046935FC1D2E4EFA00D07258 /* PrefixHeader.pch */,
-				046935E91D2E4EDD00D07258 /* UIImageView+SDWebImage.h */,
-				046935EA1D2E4EDD00D07258 /* UIImageView+SDWebImage.m */,
-				046935EB1D2E4EDD00D07258 /* GCDCountdownTime.h */,
-				046935EC1D2E4EDD00D07258 /* GCDCountdownTime.m */,
-				046935ED1D2E4EDD00D07258 /* UIView+Toast.h */,
-				046935EE1D2E4EDD00D07258 /* UIView+Toast.m */,
-				046935EF1D2E4EDD00D07258 /* NSMutableAttributedString+Helper.h */,
-				046935F01D2E4EDD00D07258 /* NSMutableAttributedString+Helper.m */,
-				046935F11D2E4EDD00D07258 /* NSString+Helper.h */,
-				046935F21D2E4EDD00D07258 /* NSString+Helper.m */,
-				046935F31D2E4EDD00D07258 /* UIImage+ColorMakeImage.h */,
-				046935F41D2E4EDD00D07258 /* UIImage+ColorMakeImage.m */,
-			);
-			name = "工具类";
-			path = "../项目完整代码/SXT";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,14 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				046935F61D2E4EDD00D07258 /* UIImageView+SDWebImage.m in Sources */,
-				046935FB1D2E4EDD00D07258 /* UIImage+ColorMakeImage.m in Sources */,
-				046935F71D2E4EDD00D07258 /* GCDCountdownTime.m in Sources */,
-				046935FA1D2E4EDD00D07258 /* NSString+Helper.m in Sources */,
-				046935F91D2E4EDD00D07258 /* NSMutableAttributedString+Helper.m in Sources */,
 				046935BB1D2E4E6900D07258 /* ViewController.m in Sources */,
 				046935B81D2E4E6900D07258 /* AppDelegate.m in Sources */,
-				046935F81D2E4EDD00D07258 /* UIView+Toast.m in Sources */,
 				046935C11D2E4E6900D07258 /* ToolClass.xcdatamodeld in Sources */,
 				046935B51D2E4E6900D07258 /* main.m in Sources */,
 			);
@@ -547,6 +500,7 @@
 				046935E21D2E4E6A00D07258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		046935E31D2E4E6A00D07258 /* Build configuration list for PBXNativeTarget "ToolClassTests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +509,7 @@
 				046935E51D2E4E6A00D07258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		046935E61D2E4E6A00D07258 /* Build configuration list for PBXNativeTarget "ToolClassUITests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +518,7 @@
 				046935E81D2E4E6A00D07258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
